@@ -1,5 +1,5 @@
 # TextsClassification
-Project for the subject Natural Language Processing on Jagiellonian University
+Project for the subject Natural Language Processing at the Jagiellonian University
 
 ## Description
 
