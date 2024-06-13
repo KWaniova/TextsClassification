@@ -102,7 +102,7 @@ def tokenize_and_normalize(text):
     Tokenize and normalize text
     """
     sentenses = sent.tokenize(text)
-    print(sentenses)
+    # print(sentenses)
     sentenses = remove_end_lines(sentenses)
     sents = []
     for s in sentenses:
@@ -112,5 +112,5 @@ def tokenize_and_normalize(text):
         words = normalize(words)
         # print(words)
         sents.append(" ".join(words))
-    print(sents[:10])
+    # print(sents[:10])
     return sents
