@@ -11,7 +11,7 @@ def load_data(folder_path: str):
         if os.path.isfile(os.path.join(folder_path, file_name)):
             path = os.path.join(folder_path, file_name)
             print(path)
-            if path.endswith('.txt'):
-                file = open(path, 'r').read()
+            if path.endswith(".txt"):
+                file = open(path, "r").read()
                 file_list.append(file)
     return file_list
